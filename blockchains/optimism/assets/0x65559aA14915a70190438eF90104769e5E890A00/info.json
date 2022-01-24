@@ -1,0 +1,29 @@
+{
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "Decentralised naming for wallets, websites, & more.",
+    "website": "https://ens.domains",
+    "explorer": "https://optimistic.etherscan.io/address/0x65559aA14915a70190438eF90104769e5E890A00",
+    "status": "active",
+    "id": "0x65559aA14915a70190438eF90104769e5E890A00",
+    "links": [
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/ensdomains"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/ensdomains"
+        },
+        {
+            "name": "medium",
+            "url": "https://medium.com/the-ethereum-name-service"
+        },
+        {
+            "name": "discord",
+            "url": "https://discord.com/invite/ens"
+        }
+    ]
+}

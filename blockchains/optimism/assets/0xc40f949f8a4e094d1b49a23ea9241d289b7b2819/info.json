@@ -1,0 +1,11 @@
+{
+    "name": "LUSD Stablecoin",
+    "symbol": "LUSD",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
+    "status": "active",
+    "id": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819"
+}

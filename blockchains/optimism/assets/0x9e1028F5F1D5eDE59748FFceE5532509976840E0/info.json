@@ -1,0 +1,11 @@
+{
+    "name": "Perpetual",
+    "symbol": "PERP",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+    "status": "active",
+    "id": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0"
+}

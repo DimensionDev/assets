@@ -1,0 +1,11 @@
+{
+    "name": "BitBTC",
+    "symbol": "BitBTC",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0xc98B98d17435AA00830c87eA02474C5007E1f272",
+    "status": "active",
+    "id": "0xc98B98d17435AA00830c87eA02474C5007E1f272"
+}

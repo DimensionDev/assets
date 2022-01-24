@@ -1,0 +1,11 @@
+{
+    "name": "Paper",
+    "symbol": "PAPER",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0x00F932F0FE257456b32dedA4758922E56A4F4b42",
+    "status": "active",
+    "id": "0x00F932F0FE257456b32dedA4758922E56A4F4b42"
+}

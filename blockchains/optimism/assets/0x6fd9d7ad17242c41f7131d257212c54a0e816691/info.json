@@ -1,0 +1,11 @@
+{
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0x6fd9d7AD17242c41f7131d257212c54A0e816691",
+    "status": "active",
+    "id": "0x6fd9d7AD17242c41f7131d257212c54A0e816691"
+}

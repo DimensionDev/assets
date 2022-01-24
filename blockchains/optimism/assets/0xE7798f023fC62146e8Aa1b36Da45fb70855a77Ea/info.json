@@ -1,0 +1,11 @@
+{
+    "name": "UMA Voting Token v1",
+    "symbol": "UMA",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://optimistic.etherscan.io/address/0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
+    "status": "active",
+    "id": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
+}
