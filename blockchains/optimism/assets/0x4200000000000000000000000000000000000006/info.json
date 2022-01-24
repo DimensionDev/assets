@@ -1,0 +1,11 @@
+{
+    "name": "WETH",
+    "symbol": "WETH",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "-",
+    "website": "https://weth.io/",
+    "explorer": "https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006",
+    "status": "active",
+    "id": "0x4200000000000000000000000000000000000006"
+}
