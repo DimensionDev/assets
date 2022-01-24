@@ -1,0 +1,25 @@
+{
+    "name": "Mask Network",
+    "website": "https://mask.io",
+    "description": "The portal to the new, open internet.",
+    "explorer": "https://optimistic.etherscan.io/token/0x3390108E913824B8eaD638444cc52B9aBdF63798",
+    "type": "OPTIMISM",
+    "symbol": "MASK",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3390108E913824B8eaD638444cc52B9aBdF63798",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/DimensionDev/Maskbook"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/realmaskbook"
+        },
+        {
+            "name": "facebook",
+            "url": "https://facebook.com/masknetwork"
+        }
+    ]
+}
