@@ -1,0 +1,32 @@
+{
+    "name": "Fantom Token",
+    "symbol": "FTM",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Fantom is a high-performance, scalable, customizable, and secure smart-contract platform. It is designed to overcome the limitations of previous generation blockchain platforms. Fantom is permissionless, decentralized, and open-source.",
+    "website": "http://fantom.foundation",
+    "explorer": "https://blockexplorer.boba.network/tokens/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+    "status": "active",
+    "id": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+    "tags": [
+        "defi"
+    ],
+    "links": [
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/FantomFDN"
+        },
+        {
+            "name": "telegram",
+            "url": "https://t.me/Fantom_English"
+        },
+        {
+            "name": "coingecko",
+            "url": "https://coingecko.com/coins/fantom/"
+        },
+        {
+            "name": "coinmarketcap",
+            "url": "https://coinmarketcap.com/currencies/fantom/"
+        }
+    ]
+}

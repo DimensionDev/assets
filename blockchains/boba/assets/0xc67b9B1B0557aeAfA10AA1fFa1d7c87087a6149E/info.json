@@ -1,0 +1,12 @@
+{
+    "name": "Banana",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0xc67b9B1B0557aeAfA10AA1fFa1d7c87087a6149E",
+    "research": "-",
+    "type": "ERC20",
+    "symbol": "BANA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xc67b9B1B0557aeAfA10AA1fFa1d7c87087a6149E",
+}

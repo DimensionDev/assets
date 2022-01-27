@@ -1,0 +1,11 @@
+{
+    "name": "Polygon",
+    "website": "https://matic.network",
+    "description": "Matic Network is a Layer-2 scaling solution that uses sidechains for off-chain computation while ensuring asset security using the Plasma framework and a decentralized network of Proof-of-Stake (PoS) validators.",
+    "explorer": "https://blockexplorer.boba.network/tokens/0x922D641a426DcFFaeF11680e5358F34d97d112E1",
+    "type": "ERC20",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x922D641a426DcFFaeF11680e5358F34d97d112E1"
+}

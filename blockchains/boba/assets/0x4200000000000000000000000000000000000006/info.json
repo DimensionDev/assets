@@ -1,0 +1,11 @@
+{
+    "name": "ETH",
+    "symbol": "ETH",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "https://ethereum.org/",
+    "explorer": "https://blockexplorer.boba.network/tokens/0x4200000000000000000000000000000000000006",
+    "status": "active",
+    "id": "0x4200000000000000000000000000000000000006"
+}

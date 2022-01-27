@@ -1,0 +1,11 @@
+{
+    "name": "WETH",
+    "symbol": "WETH",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "https://weth.io/",
+    "explorer": "https://blockexplorer.boba.network/tokens/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+    "status": "active",
+    "id": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+}
