@@ -1,0 +1,29 @@
+{
+    "name": "Boba Network",
+    "website": "https://boba.network/",
+    "description": "Boba is based on the amazing work done by Optimism and uses the same base contracts, but has a few modifications to sweeten the L2.",
+    "explorer": "https://blockexplorer.boba.network/",
+    "research": "https://github.com/omgnetwork",
+    "symbol": "ETH",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/omgnetwork"
+        },
+        {
+            "name": "twitter",
+            "url": "https://boba.eco/twitter"
+        },
+        {
+            "name": "discord",
+            "url": "https://discord.com/invite/m7NysJjKhm"
+        },
+        {
+            "name": "telegram",
+            "url": "https://boba.eco/telegram"
+        }
+    ]
+}

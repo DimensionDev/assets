@@ -1,0 +1,11 @@
+{
+    "name": "CrossChainCanonicalFRAX",
+    "symbol": "FRAX",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0x7562F525106F5d54E891e005867Bf489B5988CD9",
+    "status": "active",
+    "id": "0x7562F525106F5d54E891e005867Bf489B5988CD9"
+}

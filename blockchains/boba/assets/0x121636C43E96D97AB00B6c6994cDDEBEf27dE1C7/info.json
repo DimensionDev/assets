@@ -1,0 +1,11 @@
+{
+    "name": "BobaDoge",
+    "symbol": "BDoge",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0x121636C43E96D97AB00B6c6994cDDEBEf27dE1C7",
+    "status": "active",
+    "id": "0x121636C43E96D97AB00B6c6994cDDEBEf27dE1C7"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "BoringDAO",
+    "symbol": "BORING",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0x017Ff87AB312301aDE54f7cf9Cc5AEA28C9De024",
+    "status": "active",
+    "id": "0x017Ff87AB312301aDE54f7cf9Cc5AEA28C9De024"
+}
