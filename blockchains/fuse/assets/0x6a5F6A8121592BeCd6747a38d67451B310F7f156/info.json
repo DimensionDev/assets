@@ -1,0 +1,12 @@
+{
+    "name": "Binance USD on Fuse",
+    "symbol": "BUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x6a5F6A8121592BeCd6747a38d67451B310F7f156",
+    "research": "-",
+    "status": "active",
+    "id": "0x6a5F6A8121592BeCd6747a38d67451B310F7f156"
+}

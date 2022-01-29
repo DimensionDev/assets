@@ -1,0 +1,12 @@
+{
+    "name": "DEXTools on Fuse",
+    "symbol": "DEXT",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x2f60a843302F1Be3FA87429CA9d684f9091b003c",
+    "research": "-",
+    "status": "active",
+    "id": "0x2f60a843302F1Be3FA87429CA9d684f9091b003c"
+}

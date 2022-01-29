@@ -1,0 +1,12 @@
+{
+    "name": "Tether USD on Fuse",
+    "symbol": "USDT",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10",
+    "research": "-",
+    "status": "active",
+    "id": "0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10"
+} 

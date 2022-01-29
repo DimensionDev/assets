@@ -1,0 +1,12 @@
+{
+    "name": "BNB on Fuse",
+    "symbol": "BNB",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x6acb34b1Df86E254b544189Ec32Cf737e2482058",
+    "research": "-",
+    "status": "active",
+    "id": "0x6acb34b1Df86E254b544189Ec32Cf737e2482058"
+}

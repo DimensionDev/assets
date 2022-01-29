@@ -1,0 +1,12 @@
+{
+    "name": "USD Coin on Fuse",
+    "symbol": "USDC",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
+    "research": "-",
+    "status": "active",
+    "id": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5"
+} 

@@ -1,0 +1,29 @@
+{
+    "name": "Fuse",
+    "website": "https://www.fuse.io/",
+    "description": "The Infrastructure for Open-Source Money Launch community-centric payment systems and token economies on an Ethereum-compatible blockchain.",
+    "explorer": "https://explorer.fuse.io/",
+    "research": "https://research.binance.com/en/projects/fuse",
+    "symbol": "FUSE",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": [
+        {
+            "name": "discord",
+            "url": "https://discordapp.com/invite/jpPMeSZ"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/fuse_network"
+        },
+        {
+            "name": "telegram",
+            "url": "https://t.me/fuseio"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/fuseio"
+        }  
+    ]
+}

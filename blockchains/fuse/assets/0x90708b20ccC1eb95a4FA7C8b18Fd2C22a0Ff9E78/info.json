@@ -1,0 +1,12 @@
+{
+    "name": "SushiToken on Fuse",
+    "symbol": "SUSHI",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x90708b20ccC1eb95a4FA7C8b18Fd2C22a0Ff9E78",
+    "research": "-",
+    "status": "active",
+    "id": "0x90708b20ccC1eb95a4FA7C8b18Fd2C22a0Ff9E78"
+} 

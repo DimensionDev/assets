@@ -1,0 +1,12 @@
+{
+    "name": "Wrapped BTC on Fuse",
+    "symbol": "WBTC",
+    "type": "ERC20",
+    "decimals": 8,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x33284f95ccb7B948d9D352e1439561CF83d8d00d",
+    "research": "-",
+    "status": "active",
+    "id": "0x33284f95ccb7B948d9D352e1439561CF83d8d00d"
+} 

@@ -1,0 +1,12 @@
+{
+    "name": "Wrapped Ether on Fuse",
+    "symbol": "WETH (Deprecated)",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
+    "research": "-",
+    "status": "active",
+    "id": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670"
+} 

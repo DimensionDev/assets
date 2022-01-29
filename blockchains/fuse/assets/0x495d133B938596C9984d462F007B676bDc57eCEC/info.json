@@ -1,0 +1,12 @@
+{
+    "name": "GoodDollar",
+    "symbol": "G$",
+    "type": "ERC20",
+    "decimals": 2,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://explorer.fuse.io/token/0x495d133B938596C9984d462F007B676bDc57eCEC",
+    "research": "-",
+    "status": "active",
+    "id": "0x495d133B938596C9984d462F007B676bDc57eCEC"
+} 
