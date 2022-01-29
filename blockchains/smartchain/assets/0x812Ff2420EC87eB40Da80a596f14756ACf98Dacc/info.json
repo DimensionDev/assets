@@ -3,7 +3,7 @@
     "website": "https://hungrybear.finance",
     "description": "Hungry Bear is token driven and supported by it's community. Two functions occur during each trade: Reflection & Burn.",
     "explorer": "https://bscscan.com/token/0x812Ff2420EC87eB40Da80a596f14756ACf98Dacc",
-    "research": "",
+    "research": "-",
     "type": "BEP20",
     "symbol": "HUNGRY",
     "decimals": 8,

@@ -3,7 +3,7 @@
     "website": "https://oxen.io",
     "description": "Oxen is a private cryptocurrency with an incentivised service node network. The decentralised service node network is leveraged to create a whole suite of privacy tools including an anonymous private messenger (Session) and an anonymous onion router (Lokinet).",
     "explorer": "https://etherscan.io/token/0xd1e2d5085b39b80c9948aeb1b9aa83af6756bcc5",
-    "research": "",
+    "research": "-",
     "type": "ERC20",
     "symbol": "wOXEN",
     "decimals": 9,

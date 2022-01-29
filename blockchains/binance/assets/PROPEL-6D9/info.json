@@ -3,7 +3,7 @@
     "website": "https://payrue.com/",
     "description": "PayRue is a financial platform that operates exchanges, wallets, and transfers with cryptocurrencies.",
     "explorer": "https://explorer.binance.org/asset/PROPEL-6D9",
-    "research": "",
+    "research": "-",
     "type": "BEP2",
     "symbol": "PROPEL",
     "decimals": 8,

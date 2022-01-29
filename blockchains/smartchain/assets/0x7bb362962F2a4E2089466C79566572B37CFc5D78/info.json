@@ -3,7 +3,7 @@
     "website": "https://bafe.io",
     "description": "Self generating liquidity token - Reflection paid back to holders.",
     "explorer": "https://bscscan.com/token/0x7bb362962F2a4E2089466C79566572B37CFc5D78",
-    "research": "",
+    "research": "-",
     "type": "BEP20",
     "symbol": "BAFE",
     "decimals": 9,

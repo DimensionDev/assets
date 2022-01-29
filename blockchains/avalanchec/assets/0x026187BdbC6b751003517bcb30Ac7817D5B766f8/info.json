@@ -1,13 +1,13 @@
 {
-  "name": "Defrost Finance H2O",
-  "website": "",
-  "description": "",
-  "explorer": "https://snowtrace.io/address/0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
-  "research": "",
-  "type": "AVALANCHE",
-  "symbol": "H2O",
-  "decimals": 18,
-  "status": "active",
-  "id": "0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
-  "links": []
+    "name": "Defrost Finance H2O",
+    "website": "https://www.defrost.finance/",
+    "description": "Defrost Finance is the platform behind the next generation stablecoin and provides remunerative investment opportunities. A fully fair launch, decentralized project, its aim is to change the world of finance for good.",
+    "explorer": "https://snowtrace.io/address/0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
+    "research": "-",
+    "type": "AVALANCHE",
+    "symbol": "H2O",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
+    "links": []
 }

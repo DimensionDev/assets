@@ -2,7 +2,7 @@
     "name": "SafeToken",
     "website": "https://safetoken.xyz/",
     "description": "SafeToken is a next-gen cryptocurrency that combines auto-liquidity, frictionless yield, and token burn.",
-    "research": "",
+    "research": "-",
     "explorer": "https://bscscan.com/token/0x31045e7023e6c388F9447E632a3f9EaFF90393fa",
     "type": "BEP20",
     "symbol": "SAFETOKEN",

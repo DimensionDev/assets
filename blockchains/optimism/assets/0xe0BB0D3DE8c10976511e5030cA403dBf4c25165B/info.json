@@ -5,7 +5,7 @@
     "decimals": 8,
     "description": "0xBitcoin (0xBTC) is a mineable ERC20 token that operates on the Ethereum platform. Users are able to generate 0xBitcoin's through the process of mining. 0xBitcoin aims to be the main cryptocurrency and store of value on the Ethereum platform.",
     "website": "https://0xbitcoin.org/",
-    "explorer": "https://optimistic.etherscan.io/token/0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
+    "explorer": "https://optimistic.etherscan.io/address/0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
     "status": "active",
     "id": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B"
 }
