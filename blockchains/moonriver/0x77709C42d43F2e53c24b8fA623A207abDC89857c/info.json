@@ -1,0 +1,15 @@
+{
+    "name":"Alpha Stone",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x77709C42d43F2e53c24b8fA623A207abDC89857c",
+    "type": "moonriver",
+    "symbol": "aSTONE",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x77709C42d43F2e53c24b8fA623A207abDC89857c",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

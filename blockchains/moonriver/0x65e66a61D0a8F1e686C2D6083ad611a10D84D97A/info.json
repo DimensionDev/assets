@@ -1,0 +1,15 @@
+{
+    "name":"LaikaProtocol",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A",
+    "type": "moonriver",
+    "symbol": "LAIKA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name":"MAI",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x7f5a79576620C046a293F54FFCdbd8f2468174F1",
+    "type": "moonriver",
+    "symbol": "miMatic",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x7f5a79576620C046a293F54FFCdbd8f2468174F1",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

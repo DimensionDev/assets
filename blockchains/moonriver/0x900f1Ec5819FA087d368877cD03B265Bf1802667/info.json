@@ -1,0 +1,15 @@
+{
+    "name":"IMX@moonriver",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x900f1Ec5819FA087d368877cD03B265Bf1802667",
+    "type": "moonriver",
+    "symbol": "IMX.m",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x900f1Ec5819FA087d368877cD03B265Bf1802667",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

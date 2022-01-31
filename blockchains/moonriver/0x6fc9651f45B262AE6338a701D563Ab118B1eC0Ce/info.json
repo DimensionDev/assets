@@ -1,0 +1,15 @@
+{
+    "name":"Crowns",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x6fc9651f45B262AE6338a701D563Ab118B1eC0Ce",
+    "type": "moonriver",
+    "symbol": "CWS",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x6fc9651f45B262AE6338a701D563Ab118B1eC0Ce",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

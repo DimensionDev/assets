@@ -1,0 +1,15 @@
+{
+    "name":"Wrapped MOVR",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x98878B06940aE243284CA214f92Bb71a2b032B8A",
+    "type": "moonriver",
+    "symbol": "WMOVR",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x98878B06940aE243284CA214f92Bb71a2b032B8A",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

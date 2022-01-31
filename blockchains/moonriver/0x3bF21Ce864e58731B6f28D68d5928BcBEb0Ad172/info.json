@@ -1,0 +1,15 @@
+{
+    "name":"Governance OHM",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x3bF21Ce864e58731B6f28D68d5928BcBEb0Ad172",
+    "type": "moonriver",
+    "symbol": "gOHM",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3bF21Ce864e58731B6f28D68d5928BcBEb0Ad172",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

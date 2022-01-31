@@ -1,0 +1,15 @@
+{
+    "name":"Neku Finance",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x3Bf0880fd26E49c46d1A1e69ADb268889B4be840",
+    "type": "moonriver",
+    "symbol": "NEKU",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3Bf0880fd26E49c46d1A1e69ADb268889B4be840",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

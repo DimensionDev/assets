@@ -1,0 +1,15 @@
+{
+    "name": "Mai Stablecoin",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xFb2019DfD635a03cfFF624D210AEe6AF2B00fC2C",
+    "type": "moonriver",
+    "symbol": "MAI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xFb2019DfD635a03cfFF624D210AEe6AF2B00fC2C",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

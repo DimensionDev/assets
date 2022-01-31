@@ -1,0 +1,15 @@
+{
+    "name":"MOONKAFE",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x52f04C806EB82930F40D410259b7AF8E18d3BDc9",
+    "type": "moonriver",
+    "symbol": "KAFE",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x52f04C806EB82930F40D410259b7AF8E18d3BDc9",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

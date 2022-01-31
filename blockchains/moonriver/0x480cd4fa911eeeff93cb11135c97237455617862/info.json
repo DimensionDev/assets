@@ -1,0 +1,15 @@
+{
+    "name":"KusaMOON",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x480cd4fa911eeeff93cb11135c97237455617862",
+    "type": "moonriver",
+    "symbol": "KMOON",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x480cd4fa911eeeff93cb11135c97237455617862",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

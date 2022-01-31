@@ -1,0 +1,15 @@
+{
+    "name":"Relay Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xAd7F1844696652ddA7959a49063BfFccafafEfe7",
+    "type": "moonriver",
+    "symbol": "RELAY",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xAd7F1844696652ddA7959a49063BfFccafafEfe7",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

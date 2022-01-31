@@ -1,0 +1,15 @@
+{
+    "name": "MoonBeans",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xC2392DD3e3fED2c8Ed9f7f0bDf6026fcd1348453",
+    "type": "moonriver",
+    "symbol": "BEANS",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xC2392DD3e3fED2c8Ed9f7f0bDf6026fcd1348453",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

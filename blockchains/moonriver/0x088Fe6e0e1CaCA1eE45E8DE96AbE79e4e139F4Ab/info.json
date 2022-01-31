@@ -1,0 +1,15 @@
+{
+    "name":"Alpha Gold",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x088Fe6e0e1CaCA1eE45E8DE96AbE79e4e139F4Ab",
+    "type": "moonriver",
+    "symbol": "aGOLD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x088Fe6e0e1CaCA1eE45E8DE96AbE79e4e139F4Ab",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

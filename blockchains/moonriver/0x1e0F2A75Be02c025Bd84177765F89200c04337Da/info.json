@@ -1,0 +1,15 @@
+{
+    "name":"PETS Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x1e0F2A75Be02c025Bd84177765F89200c04337Da",
+    "type": "moonriver",
+    "symbol": "PETS",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x1e0F2A75Be02c025Bd84177765F89200c04337Da",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

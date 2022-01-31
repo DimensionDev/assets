@@ -1,0 +1,15 @@
+{
+    "name":"Wrapped BTC",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
+    "type": "moonriver",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "status": "active",
+    "id": "0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

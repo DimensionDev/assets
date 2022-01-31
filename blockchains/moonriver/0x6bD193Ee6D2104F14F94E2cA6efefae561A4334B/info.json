@@ -1,0 +1,15 @@
+{
+    "name":"SolarBeam Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B",
+    "type": "moonriver",
+    "symbol": "SOLAR",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

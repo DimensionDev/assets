@@ -1,0 +1,15 @@
+{
+    "name":"Moonscape",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x5c22ba65F65ADfFADFc0947382f2E7C286A0Fe45",
+    "type": "moonriver",
+    "symbol": "MSCP",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x5c22ba65F65ADfFADFc0947382f2E7C286A0Fe45",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

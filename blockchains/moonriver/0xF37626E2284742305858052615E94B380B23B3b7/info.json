@@ -1,0 +1,15 @@
+{
+    "name": "TreasureMaps",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xF37626E2284742305858052615E94B380B23B3b7",
+    "type": "moonriver",
+    "symbol": "TMAP",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xF37626E2284742305858052615E94B380B23B3b7",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

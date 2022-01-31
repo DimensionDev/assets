@@ -1,0 +1,15 @@
+{
+    "name":"Frax",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x965f84D915a9eFa2dD81b653e3AE736555d945f4",
+    "type": "moonriver",
+    "symbol": "Frax",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x965f84D915a9eFa2dD81b653e3AE736555d945f4",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

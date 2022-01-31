@@ -1,0 +1,15 @@
+{
+    "name":"Million",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605",
+    "type": "moonriver",
+    "symbol": "MM",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

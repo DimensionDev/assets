@@ -1,0 +1,15 @@
+{
+    "name":"Pink Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x30A54FbFF50f86C3a289fa70e677051a86677be4",
+    "type": "moonriver",
+    "symbol": "PINK",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x30A54FbFF50f86C3a289fa70e677051a86677be4",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

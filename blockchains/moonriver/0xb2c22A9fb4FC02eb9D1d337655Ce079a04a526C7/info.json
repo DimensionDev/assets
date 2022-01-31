@@ -1,0 +1,15 @@
+{
+    "name":"SpiderDAO Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xb2c22A9fb4FC02eb9D1d337655Ce079a04a526C7",
+    "type": "moonriver",
+    "symbol": "SPDR",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xb2c22A9fb4FC02eb9D1d337655Ce079a04a526C7",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

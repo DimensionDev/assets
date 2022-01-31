@@ -1,0 +1,15 @@
+{
+    "name":"MoonDao",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x761cb807bFbF14A4f4bA980f29F43F009F6a18c0",
+    "type": "moonriver",
+    "symbol": "MD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x761cb807bFbF14A4f4bA980f29F43F009F6a18c0",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

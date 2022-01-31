@@ -1,0 +1,15 @@
+{
+    "name":"1Swap Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x3516a7588C2E6FFA66C9507eF51853eb85d76e5B",
+    "type": "moonriver",
+    "symbol": "1SWAP",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3516a7588C2E6FFA66C9507eF51853eb85d76e5B",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

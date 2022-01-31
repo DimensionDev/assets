@@ -1,0 +1,15 @@
+{
+    "name":"Hundred Finance",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x10010078a54396F62c96dF8532dc2B4847d47ED3",
+    "type": "moonriver",
+    "symbol": "HND",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x10010078a54396F62c96dF8532dc2B4847d47ED3",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

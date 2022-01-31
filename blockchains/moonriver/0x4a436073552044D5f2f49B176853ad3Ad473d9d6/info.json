@@ -1,0 +1,15 @@
+{
+    "name":"Rome",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x4a436073552044D5f2f49B176853ad3Ad473d9d6",
+    "type": "moonriver",
+    "symbol": "ROME",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x4a436073552044D5f2f49B176853ad3Ad473d9d6",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

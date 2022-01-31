@@ -1,0 +1,15 @@
+{
+    "name":"Tether USD",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+    "type": "moonriver",
+    "symbol": "USDT",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

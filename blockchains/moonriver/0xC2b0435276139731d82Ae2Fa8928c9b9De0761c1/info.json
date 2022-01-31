@@ -1,0 +1,15 @@
+{
+    "name":"RivrKitty",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xC2b0435276139731d82Ae2Fa8928c9b9De0761c1",
+    "type": "moonriver",
+    "symbol": "RKITTY",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xC2b0435276139731d82Ae2Fa8928c9b9De0761c1",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

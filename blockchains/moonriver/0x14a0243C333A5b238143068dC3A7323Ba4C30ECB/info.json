@@ -1,0 +1,15 @@
+{
+    "name":" Avalanche Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x14a0243C333A5b238143068dC3A7323Ba4C30ECB",
+    "type": "moonriver",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x14a0243C333A5b238143068dC3A7323Ba4C30ECB",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

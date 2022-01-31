@@ -1,0 +1,15 @@
+{
+    "name":"RivrSaitama",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x343E8F5A79C324105dFC1F5644f9d8C31Cf75e5E",
+    "type": "moonriver",
+    "symbol": "RIVRSAITAMA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x343E8F5A79C324105dFC1F5644f9d8C31Cf75e5E",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

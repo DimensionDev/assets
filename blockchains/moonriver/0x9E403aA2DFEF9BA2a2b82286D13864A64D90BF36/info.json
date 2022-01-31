@@ -1,0 +1,15 @@
+{
+    "name":"Alpha Iron",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x9E403aA2DFEF9BA2a2b82286D13864A64D90BF36",
+    "type": "moonriver",
+    "symbol": "aIRON",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x9E403aA2DFEF9BA2a2b82286D13864A64D90BF36",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

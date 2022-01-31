@@ -1,0 +1,15 @@
+{
+    "name":"Matic Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x682F81e57EAa716504090C3ECBa8595fB54561D8",
+    "type": "moonriver",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x682F81e57EAa716504090C3ECBa8595fB54561D8",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

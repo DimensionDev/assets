@@ -1,0 +1,15 @@
+{
+    "name":"RiverBoat",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xbD90A6125a84E5C512129D622a75CDDE176aDE5E",
+    "type": "moonriver",
+    "symbol": "RIB",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xbD90A6125a84E5C512129D622a75CDDE176aDE5E",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

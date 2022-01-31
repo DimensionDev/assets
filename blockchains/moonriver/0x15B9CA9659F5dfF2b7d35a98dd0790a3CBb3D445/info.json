@@ -1,0 +1,15 @@
+{
+    "name":"DOT@moonriver",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x15B9CA9659F5dfF2b7d35a98dd0790a3CBb3D445",
+    "type": "moonriver",
+    "symbol": "DOT.m",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x15B9CA9659F5dfF2b7d35a98dd0790a3CBb3D445",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

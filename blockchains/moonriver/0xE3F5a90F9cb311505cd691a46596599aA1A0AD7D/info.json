@@ -1,0 +1,15 @@
+{
+    "name": "USD Coin",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    "type": "moonriver",
+    "symbol": "USDC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    "tags": [
+    ],
+    "links": [
+    ]
+}

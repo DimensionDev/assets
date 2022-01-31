@@ -1,0 +1,15 @@
+{
+    "name":"Alpha Wood",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://moonriver.moonscan.io/token/0x8cE2BDc6e0319cea87337d027382f09B715C9601",
+    "type": "moonriver",
+    "symbol": "aWOOD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8cE2BDc6e0319cea87337d027382f09B715C9601",
+    "tags": [
+    ],
+    "links": [
+    ]
+}
