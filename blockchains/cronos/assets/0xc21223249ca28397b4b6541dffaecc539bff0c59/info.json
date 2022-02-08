@@ -1,0 +1,14 @@
+{
+    "name": "USD Coin",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://cronos.crypto.org/explorer/address/0xc21223249ca28397b4b6541dffaecc539bff0c59",
+    "research": "",
+    "type": "CRONOS",
+    "symbol": "USDC",
+    "decimals": 6,
+    "status": "active",
+    "id": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+    "links": [
+    ]
+}

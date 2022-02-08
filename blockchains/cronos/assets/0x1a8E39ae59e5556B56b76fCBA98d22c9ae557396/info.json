@@ -1,0 +1,14 @@
+{
+    "name": "Doge coin",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://cronos.crypto.org/explorer/address/0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
+    "research": "",
+    "type": "CRONOS",
+    "symbol": "DOGE",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
+    "links": [
+    ]
+}

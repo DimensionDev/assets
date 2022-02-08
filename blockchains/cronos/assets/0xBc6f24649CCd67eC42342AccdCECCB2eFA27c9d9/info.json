@@ -1,0 +1,14 @@
+{
+    "name": "ChainLink Token",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://cronos.crypto.org/explorer/address/0xBc6f24649CCd67eC42342AccdCECCB2eFA27c9d9",
+    "research": "",
+    "type": "CRONOS",
+    "symbol": "LINK",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xBc6f24649CCd67eC42342AccdCECCB2eFA27c9d9",
+    "links": [
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Tether USD",
+    "website": "-",
+    "description": "-",
+    "explorer": "https://cronos.crypto.org/explorer/address/0x66e428c3f67a68878562e79A0234c1F83c208770",
+    "research": "",
+    "type": "CRONOS",
+    "symbol": "USDT",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+    "links": [
+    ]
+}
