@@ -1,0 +1,11 @@
+{
+    "name": "SenpaiSwap",
+    "symbol": "SENPAI",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0xaC3a4aF1778203c8B651dAfA73cEd5b79c80F239",
+    "status": "active",
+    "id": "0xaC3a4aF1778203c8B651dAfA73cEd5b79c80F239"
+}

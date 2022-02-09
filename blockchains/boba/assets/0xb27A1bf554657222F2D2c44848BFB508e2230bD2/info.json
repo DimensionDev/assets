@@ -1,0 +1,11 @@
+{
+    "name": "Waifu Token",
+    "symbol": "WAIFU",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "-",
+    "explorer": "https://blockexplorer.boba.network/tokens/0xb27A1bf554657222F2D2c44848BFB508e2230bD2",
+    "status": "active",
+    "id": "0xb27A1bf554657222F2D2c44848BFB508e2230bD2"
+}
