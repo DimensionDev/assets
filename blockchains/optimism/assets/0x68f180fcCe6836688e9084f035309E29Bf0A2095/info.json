@@ -1,0 +1,12 @@
+{
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "",
+    "website": "",
+    "explorer": "https://optimistic.etherscan.io/token/0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "status": "active",
+    "id": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "links": []
+}

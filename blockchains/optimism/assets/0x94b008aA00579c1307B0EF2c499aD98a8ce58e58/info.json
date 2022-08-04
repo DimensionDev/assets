@@ -1,0 +1,12 @@
+{
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "",
+    "website": "",
+    "explorer": "https://optimistic.etherscan.io/token/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+    "status": "active",
+    "id": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+    "links": []
+}

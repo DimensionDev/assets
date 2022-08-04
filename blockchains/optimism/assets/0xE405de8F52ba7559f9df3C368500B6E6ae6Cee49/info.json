@@ -1,0 +1,12 @@
+{
+    "name": "Synth sETH",
+    "symbol": "sETH",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "",
+    "website": "",
+    "explorer": "https://optimistic.etherscan.io/token/0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
+    "status": "active",
+    "id": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
+    "links": []
+}
