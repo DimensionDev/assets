@@ -102,7 +102,6 @@ jobs:
               if ($resp.success) {
                   Write-Host "Success: Uploaded, ID: $($env:ID_PREFIX)$imagePath"
                   $uploaded++
-                  $retry = 0
 
                   Start-Sleep -Seconds 0.25
               }
@@ -131,3 +130,57 @@ jobs:
 
               throw "Error: Unprocessable entities, Total: $($unprocessed.Length)"
           }
+
+          $obsoList = Compare-Object -CaseSensitive -ReferenceObject $localList -DifferenceObject $imageList `
+          | Where-Object { $_.SideIndicator -eq "=>" } `
+          | Select-Object -ExpandProperty InputObject `
+          | Sort-Object `
+          | Get-Unique
+          Write-Host "Success: Listing obsolescence completed, Total: $($obsoList.Length), First: $($obsoList | Select-Object -First 1)"
+
+          $deleted = 0
+
+          foreach ($imagePath in $obsoList) {
+              $sw.Restart()
+              $resp = try {
+                  Invoke-RestMethod -Method "DELETE" -Uri "https://api.cloudflare.com/client/v4/accounts/$($env:CF_ACCOUNT_ID)/images/v1/$($env:ID_PREFIX)$imagePath" `
+                  -SkipHeaderValidation -Headers @{ "Authorization" = "Bearer " + $env:CF_API_TOKEN; }
+              } catch {
+                  [PSCustomObject]@{
+                      success = $false;
+                      messages = $_.Exception.Response.StatusCode, $_.Exception.Message;
+                  }
+              }
+
+              if ($resp.success) {
+                  Write-Host "Success: Deleted, ID: $($env:ID_PREFIX)$imagePath"
+                  $deleted++
+
+                  Start-Sleep -Seconds 0.25
+              }
+              elseif ($resp.messages[0] -eq 404) {
+                  Write-Host "Warning: Image not found, ID: $($env:ID_PREFIX)$imagePath"
+              }
+              elseif ($resp.messages[0] -eq 422) {
+                  $unprocessed += $env:ID_PREFIX + $imagePath
+              }
+              else {
+                  Write-Error "Error: Deleting failed, ID: $($env:ID_PREFIX)$imagePath. $($resp.messages[0]). $($resp.messages[1])"
+              }
+
+              $sl = 250 - $sw.ElapsedMilliseconds
+              if ($sl -gt 0) {
+                  Start-Sleep -Milliseconds $sl
+              }
+          }
+
+          Write-Host "Success: Images deleted, Total: $deleted"
+
+          if ($unprocessed.Length -gt 0) {
+              foreach ($entity in $unprocessed) {
+                  Write-Host "Error: Unprocessable entity, ID: $entity"
+              }
+
+              throw "Error: Unprocessable entities, Total: $($unprocessed.Length)"
+          }
+
