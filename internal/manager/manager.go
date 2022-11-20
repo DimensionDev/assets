@@ -29,6 +29,7 @@ func InitCommands() {
 	rootCmd.AddCommand(addTokenCmd)
 	rootCmd.AddCommand(addTokenlistCmd)
 	rootCmd.AddCommand(addTokenlistExtendedCmd)
+	rootCmd.AddCommand(asyncTokenList)
 }
 
 var (
@@ -91,6 +92,14 @@ var (
 		Short: "Adds token to tokenlist-extended.json",
 		Run: func(cmd *cobra.Command, args []string) {
 			handleAddTokenList(args, path.TokenlistExtended)
+		},
+	}
+
+	asyncTokenList = &cobra.Command{
+		Use:   "async-token-list",
+		Short: "Async Mask token list",
+		Run: func(cmd *cobra.Command, args []string) {
+			handleAsyncTokenList()
 		},
 	}
 )

@@ -3,6 +3,10 @@ package manager
 import (
 	"encoding/json"
 	"fmt"
+	log "github.com/sirupsen/logrus"
+	"github.com/trustwallet/assets-go-libs/image"
+	"io/ioutil"
+	"net/http"
 	"time"
 
 	libFile "github.com/trustwallet/assets-go-libs/file"
@@ -137,4 +141,122 @@ func getAssetInfo(chain coin.Coin, tokenID string) (*info.AssetModel, error) {
 	}
 
 	return &assetModel, nil
+}
+
+type RemoteAsset struct {
+	ChainID       int    `json:"chainId"`
+	Address       string `json:"address"`
+	Name          string `json:"name"`
+	Symbol        string `json:"symbol"`
+	Decimals      int    `json:"decimals"`
+	LogoURI       string `json:"logoURI"`
+	OriginLogoURI string `json:"originLogoURI,omitempty"`
+}
+
+func createLogo(assetLogoPath string, a RemoteAsset) error {
+	err := libFile.CreateDirPath(assetLogoPath)
+	if err != nil {
+		return err
+	}
+
+	// TODO: alse handle jpg image
+	return image.CreatePNGFromURL(a.OriginLogoURI, assetLogoPath)
+}
+
+func CreateAssetInfoJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
+	assetInfoPath := path.GetAssetInfoPath(chain.Handle, token.Address)
+	asseLogoPath := path.GetAssetLogoPath(chain.Handle, token.Address)
+
+	var emptyStr string
+	var defaultType = "coin"
+
+	var assetInfoModel = info.AssetModel{
+		Name:     &token.Name,
+		Type:     &defaultType,
+		Symbol:   &token.Symbol,
+		Decimals: &token.Decimals,
+		Website:  &emptyStr,
+		Explorer: &emptyStr,
+		Status:   &emptyStr,
+		ID:       &token.Address,
+		Links: []info.Link{
+			{
+				Name: &emptyStr,
+				URL:  &emptyStr,
+			},
+		},
+		Tags: []string{""},
+	}
+	bytes, err := json.Marshal(&assetInfoModel)
+	if err != nil {
+		return fmt.Errorf("failed to marshal json: %v", err)
+	}
+
+	if err := createLogo(asseLogoPath, token); err != nil {
+		return err
+	}
+
+	f, err := libFile.CreateFileWithPath(assetInfoPath)
+	if err != nil {
+		return fmt.Errorf("failed to create file: %v", err)
+	}
+	defer f.Close()
+
+	_, err = f.Write(bytes)
+	if err != nil {
+		return fmt.Errorf("failed to write bytes to file")
+	}
+
+	err = libFile.FormatJSONFile(assetInfoPath)
+	if err != nil {
+		return fmt.Errorf("failed to format json file")
+	}
+
+	return nil
+}
+
+func handleAsyncTokenList() {
+	url := ""
+	client := http.Client{}
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+
+	if err != nil {
+		log.Fatal(err)
+
+	}
+
+	res, getErr := client.Do(req)
+
+	if getErr != nil {
+		log.Fatal(getErr)
+	}
+
+	if res.Body != nil {
+		defer res.Body.Close()
+	}
+
+	body, readErr := ioutil.ReadAll(res.Body)
+	if readErr != nil {
+		log.Fatal(readErr)
+	}
+
+	var assets []RemoteAsset
+	jsonErr := json.Unmarshal(body, &assets)
+	if jsonErr != nil {
+		log.Fatal(jsonErr)
+	}
+
+	for _, a := range assets {
+		_, err := getAssetInfo(coin.Ethereum(), a.Address)
+		if err != nil {
+			err := CreateAssetInfoJSONTemplateNew(coin.Ethereum(), a)
+			if err != nil {
+				fmt.Println("Create file failed: ", a.Address, err)
+			}
+		} else {
+			fmt.Println("Create info.json succeed for: ", a.Address)
+		}
+	}
+
+	fmt.Println(len(assets))
 }
