@@ -99,7 +99,11 @@ var (
 		Use:   "async-token-list",
 		Short: "Async Mask token list",
 		Run: func(cmd *cobra.Command, args []string) {
-			handleAsyncTokenList()
+			chains := getSupportChains()
+
+			for chain, url := range chains {
+				handleAsyncTokenList(chain, url)
+			}
 		},
 	}
 )
