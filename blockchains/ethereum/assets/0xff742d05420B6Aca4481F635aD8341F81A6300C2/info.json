@@ -1,0 +1,19 @@
+{
+    "name": "AscendEx Token",
+    "symbol": "ASD",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xff742d05420B6Aca4481F635aD8341F81A6300C2",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

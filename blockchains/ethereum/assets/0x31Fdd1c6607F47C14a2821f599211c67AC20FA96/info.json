@@ -1,0 +1,19 @@
+{
+    "name": "Burency",
+    "symbol": "BUY",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x31Fdd1c6607F47C14a2821f599211c67AC20FA96",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

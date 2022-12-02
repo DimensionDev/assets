@@ -1,0 +1,19 @@
+{
+    "name": "Fracton Protocol",
+    "symbol": "FT",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xEe9E7Bb7E55bBc86414047B61D65c9C0d91fFBd0",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Velas",
+    "symbol": "VLX",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x8C543AED163909142695f2d2aCd0D55791a9Edb9",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

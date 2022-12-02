@@ -1,0 +1,19 @@
+{
+    "name": "USDP Stablecoin",
+    "symbol": "USDP",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

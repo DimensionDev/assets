@@ -1,0 +1,19 @@
+{
+    "name": "Standard Protocol ",
+    "symbol": "STND",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x9040e237C3bF18347bb00957Dc22167D0f2b999d",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Cardiocoin",
+    "symbol": "CRDC",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xF81421fc15300c5a8CCa9aFE12F5CBAd502Fa756",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

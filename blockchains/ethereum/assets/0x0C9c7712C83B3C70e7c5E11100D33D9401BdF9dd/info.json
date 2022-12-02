@@ -1,0 +1,19 @@
+{
+    "name": "WOMBAT",
+    "symbol": "WOMBAT",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x0C9c7712C83B3C70e7c5E11100D33D9401BdF9dd",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "APENFT",
+    "symbol": "NFT",
+    "type": "coin",
+    "decimals": 6,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xEF40B859D21e4d566a3d713e756197c021BffaAa",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

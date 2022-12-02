@@ -1,0 +1,19 @@
+{
+    "name": "Cramer Coin",
+    "symbol": "CRAMER",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x64Df3aAB3b21cC275bB76c4A581Cf8B726478ee0",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Tether Gold",
+    "symbol": "xaut",
+    "type": "coin",
+    "decimals": 6,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

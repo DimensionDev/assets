@@ -1,0 +1,19 @@
+{
+    "name": "Neos Credits",
+    "symbol": "NCR",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xDB5C3C46E28B53a39C255AA39A411dD64e5fed9c",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

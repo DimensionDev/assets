@@ -1,0 +1,19 @@
+{
+    "name": "Tokemak",
+    "symbol": "TOKE",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x2e9d63788249371f1DFC918a52f8d799F4a38C94",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

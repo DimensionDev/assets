@@ -1,0 +1,19 @@
+{
+    "name": "Lossless",
+    "symbol": "lss",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x3B9BE07d622aCcAEd78f479BC0EDabFd6397E320",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

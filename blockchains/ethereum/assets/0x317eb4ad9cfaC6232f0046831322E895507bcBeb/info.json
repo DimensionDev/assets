@@ -1,0 +1,19 @@
+{
+    "name": "Tidex Token",
+    "symbol": "TDX",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x317eb4ad9cfaC6232f0046831322E895507bcBeb",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

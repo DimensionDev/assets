@@ -1,0 +1,19 @@
+{
+    "name": "Sifchain",
+    "symbol": "EROWAN",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

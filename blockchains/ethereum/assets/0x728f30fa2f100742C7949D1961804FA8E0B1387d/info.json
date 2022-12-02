@@ -1,0 +1,19 @@
+{
+    "name": "GamerCoin",
+    "symbol": "GHX",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x728f30fa2f100742C7949D1961804FA8E0B1387d",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}
