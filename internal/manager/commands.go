@@ -215,21 +215,14 @@ func CreateAssetInfoJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
 	return nil
 }
 
-func getSupportChains() map[uint]string {
-	return map[uint]string{
-		coin.ETHEREUM: "",
-		coin.POLYGON:  "",
-		coin.BINANCE:  "",
-		coin.AURORA:   "",
-	}
-}
-
-func handleAsyncTokenList(chain uint, url string) {
+func handleAsyncTokenList() {
+	url := ""
 	client := http.Client{}
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 
 	if err != nil {
 		log.Fatal(err)
+
 	}
 
 	res, getErr := client.Do(req)
@@ -254,9 +247,9 @@ func handleAsyncTokenList(chain uint, url string) {
 	}
 
 	for _, a := range assets {
-		_, err := getAssetInfo(coin.Coins[chain], a.Address)
+		_, err := getAssetInfo(coin.Ethereum(), a.Address)
 		if err != nil {
-			err := CreateAssetInfoJSONTemplateNew(coin.Coins[chain], a)
+			err := CreateAssetInfoJSONTemplateNew(coin.Ethereum(), a)
 			if err != nil {
 				fmt.Println("Create file failed: ", a.Address, err)
 			}
