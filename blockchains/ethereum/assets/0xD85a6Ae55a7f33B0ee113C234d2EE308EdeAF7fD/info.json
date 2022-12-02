@@ -1,0 +1,19 @@
+{
+    "name": "Cobak Token",
+    "symbol": "CBK",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xD85a6Ae55a7f33B0ee113C234d2EE308EdeAF7fD",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

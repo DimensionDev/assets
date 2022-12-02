@@ -1,0 +1,19 @@
+{
+    "name": "Opium Network",
+    "symbol": "OPIUM",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x888888888889C00c67689029D7856AAC1065eC11",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

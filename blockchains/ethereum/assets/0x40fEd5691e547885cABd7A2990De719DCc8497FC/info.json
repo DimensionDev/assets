@@ -1,0 +1,19 @@
+{
+    "name": "Safe Haven",
+    "symbol": "SHA",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x40fEd5691e547885cABd7A2990De719DCc8497FC",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

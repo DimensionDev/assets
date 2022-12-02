@@ -1,0 +1,19 @@
+{
+    "name": "The Open Network",
+    "symbol": "ton",
+    "type": "coin",
+    "decimals": 9,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

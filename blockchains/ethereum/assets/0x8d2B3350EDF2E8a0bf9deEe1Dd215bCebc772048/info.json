@@ -1,0 +1,19 @@
+{
+    "name": "ReSource Protocol",
+    "symbol": "SOURCE",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x8d2B3350EDF2E8a0bf9deEe1Dd215bCebc772048",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

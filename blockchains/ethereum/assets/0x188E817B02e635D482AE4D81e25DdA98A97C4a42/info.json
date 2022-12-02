@@ -1,0 +1,19 @@
+{
+    "name": "Lithium Finance",
+    "symbol": "LITH",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x188E817B02e635D482AE4D81e25DdA98A97C4a42",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

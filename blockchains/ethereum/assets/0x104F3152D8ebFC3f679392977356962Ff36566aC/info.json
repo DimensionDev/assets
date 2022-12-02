@@ -1,0 +1,19 @@
+{
+    "name": "ChainPort",
+    "symbol": "PORTX",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x104F3152D8ebFC3f679392977356962Ff36566aC",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

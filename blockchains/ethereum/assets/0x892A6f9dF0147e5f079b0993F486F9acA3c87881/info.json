@@ -1,0 +1,19 @@
+{
+    "name": "xFund",
+    "symbol": "XFUND",
+    "type": "coin",
+    "decimals": 9,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x892A6f9dF0147e5f079b0993F486F9acA3c87881",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

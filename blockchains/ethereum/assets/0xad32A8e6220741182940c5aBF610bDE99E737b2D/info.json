@@ -1,0 +1,19 @@
+{
+    "name": "PieDAO DOUGH v2",
+    "symbol": "DOUGH",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}
