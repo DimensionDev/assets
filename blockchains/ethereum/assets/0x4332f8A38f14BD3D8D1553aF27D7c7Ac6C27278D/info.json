@@ -1,0 +1,19 @@
+{
+    "name": "Ape Finance",
+    "symbol": "APEFI",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x4332f8A38f14BD3D8D1553aF27D7c7Ac6C27278D",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

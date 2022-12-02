@@ -1,0 +1,19 @@
+{
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "type": "coin",
+    "decimals": 6,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x8D983cb9388EaC77af0474fA441C4815500Cb7BB",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

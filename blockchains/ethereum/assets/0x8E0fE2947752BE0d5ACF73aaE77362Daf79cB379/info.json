@@ -1,0 +1,19 @@
+{
+    "name": "NFTrade",
+    "symbol": "NFTD",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x8E0fE2947752BE0d5ACF73aaE77362Daf79cB379",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

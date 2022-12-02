@@ -1,0 +1,19 @@
+{
+    "name": "Dego Finance",
+    "symbol": "dego",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x3Da932456D082CBa208FEB0B096d49b202Bf89c8",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "STEPN",
+    "symbol": "GMT",
+    "type": "coin",
+    "decimals": 8,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0xe3c408BD53c31C085a1746AF401A4042954ff740",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

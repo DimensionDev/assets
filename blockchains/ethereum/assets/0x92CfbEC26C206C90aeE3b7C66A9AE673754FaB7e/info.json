@@ -1,0 +1,19 @@
+{
+    "name": "OpenLeverage",
+    "symbol": "OLE",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x92CfbEC26C206C90aeE3b7C66A9AE673754FaB7e",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

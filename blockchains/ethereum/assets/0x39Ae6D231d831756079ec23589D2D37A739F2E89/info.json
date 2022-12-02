@@ -1,0 +1,19 @@
+{
+    "name": "Zeptacoin",
+    "symbol": "ZPTC",
+    "type": "coin",
+    "decimals": 4,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x39Ae6D231d831756079ec23589D2D37A739F2E89",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

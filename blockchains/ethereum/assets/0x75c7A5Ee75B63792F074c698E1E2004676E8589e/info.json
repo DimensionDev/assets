@@ -1,0 +1,19 @@
+{
+    "name": "Galleon",
+    "symbol": "DBL",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x75c7A5Ee75B63792F074c698E1E2004676E8589e",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

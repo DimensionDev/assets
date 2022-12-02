@@ -1,0 +1,19 @@
+{
+    "name": "agEUR",
+    "symbol": "AGEUR",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

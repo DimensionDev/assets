@@ -1,0 +1,19 @@
+{
+    "name": "Nabox",
+    "symbol": "NABOX",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x03D1E72765545729A035e909eDd9371a405f77Fb",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}

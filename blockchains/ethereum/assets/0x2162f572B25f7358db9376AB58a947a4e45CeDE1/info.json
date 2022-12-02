@@ -1,0 +1,19 @@
+{
+    "name": "Label",
+    "symbol": "LBL",
+    "type": "coin",
+    "decimals": 18,
+    "website": "",
+    "explorer": "",
+    "status": "",
+    "id": "0x2162f572B25f7358db9376AB58a947a4e45CeDE1",
+    "links": [
+        {
+            "name": "",
+            "url": ""
+        }
+    ],
+    "tags": [
+        ""
+    ]
+}
