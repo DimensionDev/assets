@@ -5,8 +5,10 @@ import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
 	"github.com/trustwallet/assets-go-libs/image"
+	"io"
 	"io/ioutil"
 	"net/http"
+	"os"
 	"time"
 
 	libFile "github.com/trustwallet/assets-go-libs/file"
@@ -62,7 +64,12 @@ func CreateAssetInfoJSONTemplate(token string) error {
 	if err != nil {
 		return fmt.Errorf("failed to create file: %v", err)
 	}
-	defer f.Close()
+	defer func(f *os.File) {
+		err := f.Close()
+		if err != nil {
+			log.Fatal(err)
+		}
+	}(f)
 
 	_, err = f.Write(bytes)
 	if err != nil {
@@ -132,10 +139,10 @@ func AddTokenToTokenListJSON(chain coin.Coin, assetID, tokenID string, tokenList
 }
 
 func getAssetInfo(chain coin.Coin, tokenID string) (*info.AssetModel, error) {
-	path := path.GetAssetInfoPath(chain.Handle, tokenID)
+	assetInfoPath := path.GetAssetInfoPath(chain.Handle, tokenID)
 	var assetModel info.AssetModel
 
-	err := libFile.ReadJSONFile(path, &assetModel)
+	err := libFile.ReadJSONFile(assetInfoPath, &assetModel)
 	if err != nil {
 		return nil, fmt.Errorf("failed to read data from info.json: %w", err)
 	}
@@ -159,7 +166,7 @@ func createLogo(assetLogoPath string, a RemoteAsset) error {
 		return err
 	}
 
-	// TODO: alse handle jpg image
+	// TODO: also handle jpg image.
 	return image.CreatePNGFromURL(a.OriginLogoURI, assetLogoPath)
 }
 
@@ -192,15 +199,20 @@ func CreateAssetInfoJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
 		return fmt.Errorf("failed to marshal json: %v", err)
 	}
 
-	if err := createLogo(asseLogoPath, token); err != nil {
-		return err
+	if createLogoErr := createLogo(asseLogoPath, token); createLogoErr != nil {
+		return createLogoErr
 	}
 
 	f, err := libFile.CreateFileWithPath(assetInfoPath)
 	if err != nil {
 		return fmt.Errorf("failed to create file: %v", err)
 	}
-	defer f.Close()
+	defer func(f *os.File) {
+		err := f.Close()
+		if err != nil {
+			log.Fatal(err)
+		}
+	}(f)
 
 	_, err = f.Write(bytes)
 	if err != nil {
@@ -226,6 +238,7 @@ func getSupportChains() map[uint]string {
 
 func handleAsyncTokenList(chain uint, url string) {
 	client := http.Client{}
+	//nolint
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 
 	if err != nil {
@@ -239,7 +252,12 @@ func handleAsyncTokenList(chain uint, url string) {
 	}
 
 	if res.Body != nil {
-		defer res.Body.Close()
+		defer func(Body io.ReadCloser) {
+			closeErr := Body.Close()
+			if closeErr != nil {
+				log.Fatal(closeErr)
+			}
+		}(res.Body)
 	}
 
 	body, readErr := ioutil.ReadAll(res.Body)
