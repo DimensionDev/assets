@@ -191,13 +191,8 @@ func CreateAssetJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
 		Explorer: &emptyStr,
 		Status:   &emptyStr,
 		ID:       &token.Address,
-		Links: []info.Link{
-			{
-				Name: &emptyStr,
-				URL:  &emptyStr,
-			},
-		},
-		Tags: []string{""},
+		Links:    []info.Link{},
+		Tags:     []string{},
 	}
 	bytes, err := json.Marshal(&assetInfoModel)
 	if err != nil {
