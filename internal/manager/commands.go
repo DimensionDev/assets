@@ -3,8 +3,6 @@ package manager
 import (
 	"encoding/json"
 	"fmt"
-	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/assets-go-libs/image"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -12,17 +10,21 @@ import (
 	"time"
 
 	libFile "github.com/trustwallet/assets-go-libs/file"
+	"github.com/trustwallet/assets-go-libs/image"
 	"github.com/trustwallet/assets-go-libs/path"
 	"github.com/trustwallet/assets-go-libs/validation/info"
 	"github.com/trustwallet/assets-go-libs/validation/tokenlist"
+	"github.com/trustwallet/assets/internal/config"
 	"github.com/trustwallet/go-primitives/asset"
 	"github.com/trustwallet/go-primitives/coin"
 	"github.com/trustwallet/go-primitives/types"
 
-	"github.com/trustwallet/assets/internal/config"
+	log "github.com/sirupsen/logrus"
 )
 
-func CreateAssetInfoJSONTemplate(token string) error {
+func CreateAssetJSONTemplate(token string) error {
+	var err error
+
 	c, tokenID, err := asset.ParseID(token)
 	if err != nil {
 		return fmt.Errorf("failed to parse token id: %v", err)
@@ -65,9 +67,9 @@ func CreateAssetInfoJSONTemplate(token string) error {
 		return fmt.Errorf("failed to create file: %v", err)
 	}
 	defer func(f *os.File) {
-		err := f.Close()
-		if err != nil {
-			log.Fatal(err)
+		closeErr := f.Close()
+		if closeErr != nil {
+			log.Fatal(closeErr)
 		}
 	}(f)
 
@@ -85,6 +87,7 @@ func CreateAssetInfoJSONTemplate(token string) error {
 }
 
 func AddTokenToTokenListJSON(chain coin.Coin, assetID, tokenID string, tokenListType path.TokenListType) error {
+	var err error
 	setup()
 
 	// Check for duplicates.
@@ -93,9 +96,9 @@ func AddTokenToTokenListJSON(chain coin.Coin, assetID, tokenID string, tokenList
 		tokenListPath := path.GetTokenListPath(chain.Handle, t)
 		var list tokenlist.Model
 
-		err := libFile.ReadJSONFile(tokenListPath, &list)
-		if err != nil {
-			return fmt.Errorf("failed to read data from %s: %w", tokenListPath, err)
+		readJSONError := libFile.ReadJSONFile(tokenListPath, &list)
+		if readJSONError != nil {
+			return fmt.Errorf("failed to read data from %s: %w", tokenListPath, readJSONError)
 		}
 
 		for _, item := range list.Tokens {
@@ -108,7 +111,7 @@ func AddTokenToTokenListJSON(chain coin.Coin, assetID, tokenID string, tokenList
 	var list tokenlist.Model
 	tokenListPath := path.GetTokenListPath(chain.Handle, tokenListType)
 
-	err := libFile.ReadJSONFile(tokenListPath, &list)
+	err = libFile.ReadJSONFile(tokenListPath, &list)
 	if err != nil {
 		return fmt.Errorf("failed to read data from %s: %w", tokenListPath, err)
 	}
@@ -170,7 +173,9 @@ func createLogo(assetLogoPath string, a RemoteAsset) error {
 	return image.CreatePNGFromURL(a.OriginLogoURI, assetLogoPath)
 }
 
-func CreateAssetInfoJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
+func CreateAssetJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
+	var err error
+
 	assetInfoPath := path.GetAssetInfoPath(chain.Handle, token.Address)
 	asseLogoPath := path.GetAssetLogoPath(chain.Handle, token.Address)
 
@@ -208,9 +213,9 @@ func CreateAssetInfoJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
 		return fmt.Errorf("failed to create file: %v", err)
 	}
 	defer func(f *os.File) {
-		err := f.Close()
-		if err != nil {
-			log.Fatal(err)
+		readFileError := f.Close()
+		if readFileError != nil {
+			log.Fatal(readFileError)
 		}
 	}(f)
 
@@ -237,18 +242,20 @@ func getSupportChains() map[uint]string {
 }
 
 func handleAsyncTokenList(chain uint, url string) {
+	var err error
 	client := http.Client{}
-	//nolint
+	//nolint:noctx
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	res, getErr := client.Do(req)
+	//nolint:bodyclose
+	res, reqDoError := client.Do(req)
 
-	if getErr != nil {
-		log.Fatal(getErr)
+	if reqDoError != nil {
+		log.Fatal(reqDoError)
 	}
 
 	if res.Body != nil {
@@ -260,21 +267,22 @@ func handleAsyncTokenList(chain uint, url string) {
 		}(res.Body)
 	}
 
-	body, readErr := ioutil.ReadAll(res.Body)
-	if readErr != nil {
-		log.Fatal(readErr)
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		//nolint:gocritic
+		log.Fatal(err)
 	}
 
 	var assets []RemoteAsset
-	jsonErr := json.Unmarshal(body, &assets)
-	if jsonErr != nil {
-		log.Fatal(jsonErr)
+	err = json.Unmarshal(body, &assets)
+	if err != nil {
+		log.Fatal(err)
 	}
 
 	for _, a := range assets {
 		_, err := getAssetInfo(coin.Coins[chain], a.Address)
 		if err != nil {
-			err := CreateAssetInfoJSONTemplateNew(coin.Coins[chain], a)
+			err := CreateAssetJSONTemplateNew(coin.Coins[chain], a)
 			if err != nil {
 				fmt.Println("Create file failed: ", a.Address, err)
 			}

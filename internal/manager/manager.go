@@ -72,7 +72,7 @@ var (
 				log.Fatal("1 argument was expected")
 			}
 
-			err := CreateAssetInfoJSONTemplate(args[0])
+			err := CreateAssetJSONTemplate(args[0])
 			if err != nil {
 				log.Fatalf("Can't create asset info json template: %v", err)
 			}
