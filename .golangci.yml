@@ -23,8 +23,8 @@ linters-settings:
       - 'fmt\.Print.*'
     exclude_godoc_examples: true
   funlen:
-    lines: 60
-    statements: 60
+    lines: 64
+    statements: 64
   gocognit:
     min-complexity: 35
   goconst:
