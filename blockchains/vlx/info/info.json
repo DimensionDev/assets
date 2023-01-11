@@ -1,0 +1,11 @@
+{
+    "name": "Velas",
+    "website": "https://velas.com",
+    "description": "",
+    "explorer": "https://evmexplorer.velas.com",
+    "symbol": "VLX",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

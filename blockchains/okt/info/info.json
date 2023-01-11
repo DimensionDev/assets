@@ -1,0 +1,11 @@
+{
+    "name": "OKXChain Global Utility Token",
+    "website": "https://www.okx.com/okc",
+    "description": "EVM & IBC-compatible, OKC is a L1 blockchain network built on Cosmos that aims for optimal interoperability and performance",
+    "explorer": "https://www.oklink.com/en/okc",
+    "symbol": "OKT",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

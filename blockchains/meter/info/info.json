@@ -1,0 +1,11 @@
+{
+    "name": "Meter",
+    "website": "https://www.meter.io",
+    "description": "",
+    "explorer": "https://scan.meter.io",
+    "symbol": "MTR",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

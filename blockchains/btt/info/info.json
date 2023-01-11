@@ -1,0 +1,11 @@
+{
+    "name": "BitTorrent",
+    "website": "https://bittorrentchain.io",
+    "description": "",
+    "explorer": "https://scan.bittorrentchain.io",
+    "symbol": "BTT",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

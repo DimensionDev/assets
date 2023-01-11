@@ -1,0 +1,11 @@
+{
+    "name": "Evmos",
+    "website": "https://evmos.org",
+    "description": "",
+    "explorer": "https://evm.evmos.org",
+    "symbol": "EVMOS",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

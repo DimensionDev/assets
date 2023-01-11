@@ -1,0 +1,11 @@
+{
+    "name": "FX",
+    "website": "https://functionx.io",
+    "description": "",
+    "explorer": "https://starscan.io/",
+    "symbol": "FX",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}
