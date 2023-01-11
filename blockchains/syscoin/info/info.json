@@ -1,0 +1,16 @@
+{
+    "name": "Syscoin Mainnet",
+    "website": "https://www.syscoin.org",
+    "description": "Building a world where freedom is in your hands.",
+    "explorer": "https://explorer.syscoin.org",
+    "symbol": "SYS",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/syscoin"
+        },
+    ]
+}

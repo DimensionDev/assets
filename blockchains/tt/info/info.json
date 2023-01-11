@@ -1,0 +1,11 @@
+{
+    "name": "ThunderCore Token",
+    "website": "https://thundercore.com",
+    "description": "",
+    "explorer": "https://viewblock.io/thundercore",
+    "symbol": "TT",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Canto",
+    "website": "https://canto.io",
+    "description": "",
+    "explorer": "https://evm.explorer.canto.io",
+    "symbol": "CANTO",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "NEXT",
+    "website": "https://www.nextsmartchain.com",
+    "description": "",
+    "explorer": "https://explorer.nextsmartchain.com",
+    "symbol": "NEXT",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}

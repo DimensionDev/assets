@@ -1,0 +1,11 @@
+{
+    "name": "Arbitrum Nova",
+    "website": "https://arbitrum.io",
+    "description": "",
+    "explorer": "https://nova-explorer.arbitrum.io",
+    "symbol": "ETH",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}
