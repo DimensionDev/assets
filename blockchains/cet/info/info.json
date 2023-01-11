@@ -1,0 +1,11 @@
+{
+    "name": "CoinEx Chain Native Token",
+    "website": "https://www.coinex.org",
+    "description": "",
+    "explorer": "https://www.coinex.net",
+    "symbol": "cet",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": []
+}
