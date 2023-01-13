@@ -1,0 +1,11 @@
+{
+    "name": "aurora",
+    "symbol": "Aurora",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "-",
+    "website": "https://aurora.dev",
+    "explorer": "https://etherscan.io/token/0xAaAAAA20D9E0e2461697782ef11675f668207961",
+    "status": "active",
+    "id": "0xAaAAAA20D9E0e2461697782ef11675f668207961"
+}
