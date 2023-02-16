@@ -50,6 +50,7 @@ There are several scripts available for maintainers:
 - `make add-token asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Create `info.json` file as asset template.
 - `make add-tokenlist asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist.json.
 - `make add-tokenlist-extended asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist-extended.json.
+- `make async-token-list` -- Auto fetch mask token list and generate info and logo.
 
 ## On Checks
 
