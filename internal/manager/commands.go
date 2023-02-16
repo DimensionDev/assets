@@ -229,10 +229,15 @@ func CreateAssetJSONTemplateNew(chain coin.Coin, token RemoteAsset) error {
 
 func getSupportChains() map[uint]string {
 	return map[uint]string{
-		coin.ETHEREUM: "",
-		coin.POLYGON:  "",
-		coin.BINANCE:  "",
-		coin.AURORA:   "",
+		coin.ETHEREUM:   "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/mainnet.json",
+		coin.POLYGON:    "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/polygon.json",
+		coin.BINANCE:    "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/bnb.json",
+		coin.AURORA:     "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/aurora.json",
+		coin.ARBITRUM:   "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/arbitrum.json",
+		coin.FANTOM:     "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/fantom.json",
+		coin.AVALANCHEC: "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/avalanche.json",
+		coin.HARMONY:    "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/harmony.json",
+		coin.OPTIMISM:   "https://raw.githubusercontent.com/DimensionDev/Mask-Token-Lists/master/src/fungible-tokens/optimistic.json",
 	}
 }
 
