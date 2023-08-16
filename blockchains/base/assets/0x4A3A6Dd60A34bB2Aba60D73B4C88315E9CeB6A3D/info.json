@@ -1,0 +1,12 @@
+{
+    "name": "Magic Internet Money",
+    "type": "ERC20",
+    "symbol": "MIM",
+    "decimals": 18,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
+    "status": "active",
+    "id": "0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
+    "links": []
+}

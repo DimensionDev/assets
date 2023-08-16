@@ -1,0 +1,12 @@
+{
+    "name": "RocketSwap",
+    "type": "ERC20",
+    "symbol": "RCKT",
+    "decimals": 18,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0x6653dD4B92a0e5Bf8ae570A98906d9D6fD2eEc09",
+    "status": "active",
+    "id": "0x6653dD4B92a0e5Bf8ae570A98906d9D6fD2eEc09",
+    "links": []
+}

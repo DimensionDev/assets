@@ -1,0 +1,12 @@
+{
+    "name": "Toshi",
+    "type": "ERC20",
+    "symbol": "TOSHI",
+    "decimals": 18,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
+    "status": "active",
+    "id": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
+    "links": []
+}

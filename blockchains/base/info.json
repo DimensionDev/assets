@@ -1,0 +1,25 @@
+{
+    "name": "Base",
+    "website": "https://base.org",
+    "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+    "explorer": "https://basescan.org",
+    "research": "https://research.binance.com/en/projects/base",
+    "symbol": "Base",
+    "type": "coin",
+    "decimals": 18,
+    "status": "active",
+    "links": [
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/buildonbase"
+        },
+        {
+            "name": "discord",
+            "url": "https://base.org/discord"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/base-org"
+        }
+    ]
+}

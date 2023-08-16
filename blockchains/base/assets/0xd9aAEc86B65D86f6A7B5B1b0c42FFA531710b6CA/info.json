@@ -1,0 +1,12 @@
+{
+    "name": "USD Base Coin",
+    "type": "ERC20",
+    "symbol": "USDbC",
+    "decimals": 6,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "status": "active",
+    "id": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "links": []
+}
