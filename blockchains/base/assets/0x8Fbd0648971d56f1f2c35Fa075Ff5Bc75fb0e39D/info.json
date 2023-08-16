@@ -1,0 +1,12 @@
+{
+    "name": "MBS",
+    "type": "ERC20",
+    "symbol": "MBS",
+    "decimals": 18,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D",
+    "status": "active",
+    "id": "0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D",
+    "links": []
+}

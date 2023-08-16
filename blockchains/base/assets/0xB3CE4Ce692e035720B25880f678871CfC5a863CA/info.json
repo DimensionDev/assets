@@ -1,0 +1,12 @@
+{
+    "name": "BaseTools",
+    "type": "ERC20",
+    "symbol": "BASE",
+    "decimals": 18,
+    "website": "",
+    "description": "",
+    "explorer": "https://basescan.org/token/0xB3CE4Ce692e035720B25880f678871CfC5a863CA",
+    "status": "active",
+    "id": "0xB3CE4Ce692e035720B25880f678871CfC5a863CA",
+    "links": []
+}
