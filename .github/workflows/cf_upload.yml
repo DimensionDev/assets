@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - fix/ci
     paths:
       - "blockchains/**.png"
       - "dapps/**.png"
@@ -112,7 +113,10 @@ jobs:
                   $unprocessed += $env:ID_PREFIX + $imagePath
               }
               else {
-                  Write-Error "Error: Uploading failed, ID: $($env:ID_PREFIX)$imagePath. $($resp.messages[0]). $($resp.messages[1])"
+                  Write-Error "Error3: Uploading failed. $($env:CF_API_TOKEN). $($resp | ConvertTo-Json -Depth 10)"
+                  Write-Error "Error3: $($env:CF_API_TOKEN)."
+                  Write-Error "Error3: $($resp | ConvertTo-Json -Depth 11)"
+                  Write-Error "Error3: Uploading failed, ID: $($env:ID_PREFIX)$imagePath. $($resp.messages[1]). $($resp.messages[1])"
               }
 
               $sl = 250 - $sw.ElapsedMilliseconds
@@ -183,4 +187,3 @@ jobs:
 
               throw "Error: Unprocessable entities, Total: $($unprocessed.Length)"
           }
-
